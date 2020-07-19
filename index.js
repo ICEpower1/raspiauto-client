@@ -3,7 +3,7 @@ var net = require('net');
 console.log("HALOJATAHALLOOO")
 
 var client = new net.Socket();
-client.connect(8484, '127.0.0.1', function() {
+client.connect(8000, '86.115.196.9', function() {
     console.log('Connected');
     client.write('Hello, server! Love, Client.');
 });

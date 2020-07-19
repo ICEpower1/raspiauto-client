@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/ICEpower1/raspiauto-client/issues"
   },
-  "homepage": "https://github.com/ICEpower1/raspiauto-client#readme"
+  "homepage": "https://github.com/ICEpower1/raspiauto-client#readme",
+  "dependencies": {
+    "net": "^1.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
 }
